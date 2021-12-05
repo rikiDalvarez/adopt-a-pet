@@ -1,7 +1,10 @@
+import { Component } from "react";
+
+
 const Details = () => {
 	return (
-		<h1>This is the Details page 🐰</h1>
-	)
+	<h1>Details page 🐰</h1>
+)
 }
 
 export default Details;

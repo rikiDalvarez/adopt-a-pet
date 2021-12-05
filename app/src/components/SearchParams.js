@@ -17,7 +17,7 @@ function SearchParams() {
 
 	useEffect(() => {
 		requestPets();
-	}, [animal])
+	}, [])
 
 
 	
@@ -48,7 +48,6 @@ function SearchParams() {
 						/>
 					</label><br />
 					
-					<button type="submit"> submit</button><br />
 
 					<label htmlFor="animal">
 						Animal <br />
@@ -73,6 +72,7 @@ function SearchParams() {
 							))}							
 						</select>
 					</label>
+					<button type="submit"> submit</button><br />
 				
 				</form>
 				<Results pets={pets} />
